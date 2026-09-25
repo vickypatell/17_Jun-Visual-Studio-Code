@@ -41,4 +41,21 @@ for i in range(1,10):
     if i%3==0:
         break
     print(i,end=" ")
+print()
+# nested loops
+# * * * *
+# * * * *
 
+for _ in range(2):
+    for _ in range(4):
+        print("*",end=" ")
+    print()
+    
+# @ @ @
+# @ @ @ 
+
+for _ in range(2):
+    for _ in range(4):
+        print("@",end=" ")
+    print()
+    
