@@ -25,4 +25,10 @@ for _ in range(7):
 for i in range(1,9):
     print("*"*i)
 
-###   Home Work ###
+#####################          Home Work         #############################
+
+N = 5
+
+for i in range(1, N + 1):
+    print("  " * (N - i), end="")
+    print("* " * i)
